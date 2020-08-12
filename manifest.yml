@@ -1,0 +1,7 @@
+applications:
+- name: config-microservice4
+path: target/pcf-cloud-config.jar
+memory: 1G
+instances: 1
+services:
+- config-server
